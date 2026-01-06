@@ -4,4 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_LH7n.mk
+    $(LOCAL_DIR)/miku_LH7n.mk
+
+COMMON_LUNCH_CHOICES := \
+     miku_LH7n-user \
+     miku_LH7n-userdebug \
+     miku_LH7n-eng
