@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/tecno/LH7n/device.mk)
 
 # Inherit some common miku stuff.
-$(call inherit-product, vendor/miku/config/common_full_phone.mk)
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 BOARD_VENDOR := TECNO
 PRODUCT_NAME := miku_LH7n
@@ -30,5 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
 # Miku flags
-MIKU_GAPPS := true
+MIKU_GAPPS := false
 MIKU_MASTER := CRAZY_JOKER67
