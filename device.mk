@@ -529,3 +529,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/tecno/LH7n/LH7n-vendor.mk)
+
+#Signing
+-include vendor/lineage-priv/keys/keys.mk
