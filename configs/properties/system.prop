@@ -22,8 +22,8 @@ pm.dexopt.bg-dexopt=speed-profile
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
 pm.dexopt.ab-ota=speed-profile
-dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
-dalvik.vm.dex2oat-threads=6
+#dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+#dalvik.vm.dex2oat-threads=6
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.boot-dex2oat-threads=6
 dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5
@@ -88,3 +88,13 @@ wifi.tethering.interface=ap0
 
 # Zygote
 zygote.critical_window.minute=10
+
+# mistos
+ro.mist.display=1080 x 2460, 120 hz
+ro.mist.battery=6000 mAh
+ro.mist.soc=MTK HELIO G99
+ro.mist.camera=50MP + 0.08MP
+ro.mist.front=8MP
+ro.mist.platform=mt6789
+ro.mist.screen=6.78' IPS LCD
+ro.mist.device.name=TECNO POVA 5
